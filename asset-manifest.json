@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movietrack/static/css/main.01f1bfbe.css",
+    "main.js": "/movietrack/static/js/main.912bee61.js",
+    "index.html": "/movietrack/index.html",
+    "main.01f1bfbe.css.map": "/movietrack/static/css/main.01f1bfbe.css.map",
+    "main.912bee61.js.map": "/movietrack/static/js/main.912bee61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01f1bfbe.css",
+    "static/js/main.912bee61.js"
+  ]
+}
