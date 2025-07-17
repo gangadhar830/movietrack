@@ -1,13 +1,172 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App{
+  background-color: black;
+  height: 100vh;
+}
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(172, 55, 55);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  height: 50px;
+  align-items: center;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Navbar input{
+  width: 50%;
+  height: 50%;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.box{
+ width: 1000px;
+ 
+ 
+ margin: auto;
+}
+.grid-box{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.box1{
+  height: 600px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: scroll;
+}
+.movies-list img{
+  width: 13%;
+  object-fit: contain;
+
+}
+.movies-list {
+  margin: 10px;
+  display: flex;
+  column-gap: 20px;
+  height: 100px;
+  overflow: hidden;
+  border-bottom:2px solid gray;
+  cursor: pointer;
+}
+.movies-list div {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+
+}
+.Movies-Watched-Details{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(163, 147, 135);
+}
+.Movies-Average {
+  display: flex;
+  gap: 20px; /* space between pairs */
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-weight: bold;
+  color:black 
+}
+.Movies-Average div {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between emoji and value */
+}
+.Movies-Watched{
+  margin: 10px;
+  display: flex;
+  column-gap: 20px;
+  height: 100px;
+  overflow: hidden;
+  border-bottom:2px solid gray;
+}
+.Movies-Watched img{
+   width: 13%;
+  object-fit: cover;
+
+}
+.Movies-Watched-list{
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  width: 100%;
+  column-gap: 15px;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+.btn{
+  background-color: rgb(255, 5, 5);
+  width: 100px;
+  height: 20px;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  margin: auto;
+  align-text: center;
+  margin: 15px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.selected-movie{
+  display: flex;
+  padding:5px;
+    background-color:grey;
+    border-bottom: 2px solid black;
 }
+.selected-movie img{
+  width: 30%;
+  object-fit: contain;
+}
+.selected-movie-info{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.selected-movie-overview{
+  padding:5px;
+  font-weight: 500;
+}
+.Stars{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.selected-movie-container{
+  background-color: grey;
+}
+.add{
+  background-color:orange;
+  width: 100px;
+  height:40px;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  margin: auto;
+  align-text: center;
+  margin: 15px;
+}
+
+  
+
+
+
